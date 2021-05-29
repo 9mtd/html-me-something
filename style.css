@@ -52,7 +52,7 @@ h4 {
 
 
 p{
-    text-align: center;
+    text-align: justify;
     margin: .5rem 0px;
 }
 
@@ -114,3 +114,7 @@ footer{
     border: 10px double rgb(66, 66, 66);
     padding: 0px;
 } 
+
+.footer-style{
+    text-align: center;
+}
