@@ -1,7 +1,6 @@
 /* Elements */
 body {
     background-color:lightgray;
-    /* Google fonts */
     font-size: 12pt;
     font-weight: 100;
     color:rgb(66, 66, 66);
@@ -13,6 +12,8 @@ body {
 }
 
 header{
+    /* background-image: url("background.jpeg");
+    background-repeat: no-repeat; */
     background-color: darkgray;
     text-align: center;
     height: auto;
@@ -61,12 +62,6 @@ img{
     margin: 5px 0px; 
 }
 
-/* .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-} */
 div{
     display:flex;
     justify-content: center;
@@ -78,7 +73,7 @@ div{
 a{
     color:rgb(66, 66, 66);
     font-weight: 600;
-    text-decoration:none; /*this removes the link underline*/
+    text-decoration:none;
 }
 
 a:hover {
@@ -97,8 +92,24 @@ footer{
     padding: 10px;
     margin: 0px; 
 }
+
 /* IDs */
+#page-title {
+    color: rgb(66, 66, 66);
+    text-align: center;
+}
 
-
+#tagline{
+    color: rgb(66, 66, 66);
+    text-align: center;
+}
 
 /* Classes */
+.imagespec {
+    float: none;
+}
+ 
+.bordered {
+    border: 10px double rgb(66, 66, 66);
+    padding: 0px;
+} 
