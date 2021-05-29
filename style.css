@@ -25,6 +25,71 @@ main {
     box-sizing: border-box;
 }
 
+h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0px 0px 10px;
+}
+
+h2 {
+    font-family: 'Cedarville Cursive', cursive;
+    font-size: 2rem;
+    font-weight: 50;
+    margin: 0px 0px 10px;
+}
+
+h3 {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 5000;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+p{
+    text-align: justify;
+    margin: .5rem 0px;
+}
+
+img{
+    width: 400px;
+    height: 270px;
+    margin: 5px 0px; 
+}
+
+/* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+div{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+
+a{
+    color:rgb(66, 66, 66);
+    font-weight: 600;
+    text-decoration:none; /*this removes the link underline*/
+}
+
+a:hover {
+    color: black !important;
+}
+
+a:visited {
+    color: black;
+}
+
+
 footer{
     background-color: darkgray;
     text-align: center;
