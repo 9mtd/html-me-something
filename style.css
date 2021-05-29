@@ -1,0 +1,39 @@
+/* Elements */
+body {
+    background-color:lightgray;
+    /* Google fonts */
+    font-size: 12pt;
+    font-weight: 100;
+    color:rgb(66, 66, 66);
+    width: 100 vw;
+    height: 100 vh;
+    margin: 10px;
+    padding: 0px;
+    overflow-x:hidden;
+}
+
+header{
+    background-color: darkgray;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    margin: 0px;
+}
+
+main {
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+footer{
+    background-color: darkgray;
+    text-align: center;
+    height: auto;
+    padding: 10px;
+    margin: 0px; 
+}
+/* IDs */
+
+
+
+/* Classes */
